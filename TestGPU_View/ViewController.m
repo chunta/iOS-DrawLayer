@@ -7,9 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "GPUView.h"
 
 @interface ViewController ()
-
+{
+    GPUView *gpuView;
+  
+}
 @end
 
 @implementation ViewController
@@ -17,6 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    gpuView = [GPUView new];
+    gpuView.frame = self.view.bounds;
+    [self.view addSubview:gpuView];
+    [gpuView prepareRender];
 }
 
 

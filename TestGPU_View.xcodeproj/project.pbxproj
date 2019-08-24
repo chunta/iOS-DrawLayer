@@ -13,6 +13,7 @@
 		CDB82A6023093F77002862F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB82A5F23093F77002862F1 /* Assets.xcassets */; };
 		CDB82A6323093F77002862F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB82A6123093F77002862F1 /* LaunchScreen.storyboard */; };
 		CDB82A6623093F77002862F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB82A6523093F77002862F1 /* main.m */; };
+		CDB82A6E23094078002862F1 /* GPUView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB82A6D23094078002862F1 /* GPUView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CDB82A6223093F77002862F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDB82A6423093F77002862F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDB82A6523093F77002862F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDB82A6C23094078002862F1 /* GPUView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUView.h; sourceTree = "<group>"; };
+		CDB82A6D23094078002862F1 /* GPUView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CDB82A6123093F77002862F1 /* LaunchScreen.storyboard */,
 				CDB82A6423093F77002862F1 /* Info.plist */,
 				CDB82A6523093F77002862F1 /* main.m */,
+				CDB82A6C23094078002862F1 /* GPUView.h */,
+				CDB82A6D23094078002862F1 /* GPUView.m */,
 			);
 			path = TestGPU_View;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				CDB82A5B23093F76002862F1 /* ViewController.m in Sources */,
 				CDB82A6623093F77002862F1 /* main.m in Sources */,
 				CDB82A5823093F76002862F1 /* AppDelegate.m in Sources */,
+				CDB82A6E23094078002862F1 /* GPUView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
